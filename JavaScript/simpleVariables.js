@@ -10,7 +10,7 @@
     5. A Semi Colon
 */
 
-//The Value could be any Data Type: 
+/* The Value could be any Data Type: */
 
 //1. A String
 let progLanguage = "JavaScript";
@@ -20,6 +20,15 @@ let number = 25;
 
 //3. A Boolean 
 let isCoding = true;
+
+/* It can also be the other two Primitive Data Types */
+
+//4. An Undefined
+let noValue; //A Variable with No Value is 'undefined'
+let undef = undefined //Can explicitly make 'undefined'
+
+//5. A Null Value
+let emptyObj = null; //Null is an Object with no Reference! (Like the number 0 is a number with no Quantity.)
 
 
 //Printing out the Values of your Variables to the Console using console.log()
