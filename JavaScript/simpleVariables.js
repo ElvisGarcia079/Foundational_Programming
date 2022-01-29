@@ -28,10 +28,26 @@ console.log(number);
 console.log(isCoding);
 
 
-//Check the Data Type of your Variables using the JavaScript Method typeof()
+//Create a reference to the Data Type of your Variables using the JavaScript Method typeof()
 typeof(progLanguage);
 typeof(number);
 typeof(isCoding);
+
+//Log to the Console The Reference to Your Variables Data Type
+
+/* Version 1: Directly Inserting the Type Of Method Reference into the console.log() as an argument */
+
+console.log(typeof(progLanguage));
+console.log(typeof(number));
+console.log(typeof(isCoding));
+
+
+
+
+
+
+
+
 
 
 
