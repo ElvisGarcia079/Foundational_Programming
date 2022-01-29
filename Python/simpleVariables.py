@@ -10,25 +10,51 @@
 #The Value Could Be Any Data Type: 
 
 #1. A String
+from numpy import number
+
+
 progLanguage = "Python"
 
 #2. A Number
-age = 28
+num = 28
 
 #3. A Boolean
 isCoding = True
 
 #You can check the values by using Python's Print Method with the variable name inside
 print(progLanguage)
-print(age)
+print(num)
 print(isCoding)
 
 #You can also check the type of the data by using the Python Type Method: 
 type(progLanguage)
-type(age)
+type(num)
 type(isCoding)
 
-#If you would like to see the result of the Method Type, you will need to wrap it within the method Print
+
+#Version 1: 
+
+'''
+If you would like to see the result of the Method Type, you will need to wrap it within the method Print
+'''
+
 print(type(progLanguage))
-print(type(age))
+print(type(num))
 print(type(isCoding))
+
+#Version 2: 
+
+'''
+You Can Store the Reference from the Type Method and Store that in a Variable, and then Print it using the Print Method.
+'''
+
+#Step 1: Create the Variable Reference to the Type Value
+progLanguageDT = type(progLanguage)
+numDT = type(num)
+isCodingDT = type(isCoding)
+
+#Step 2: Print the Variables with the Stored Reference
+print(progLanguageDT)
+print(numDT)
+print(isCodingDT)
+
