@@ -10,9 +10,6 @@
 #The Value Could Be Any Data Type: 
 
 #1. A String
-from numpy import number
-
-
 progLanguage = "Python"
 
 #2. A Number
