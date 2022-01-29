@@ -41,7 +41,17 @@ console.log(typeof(progLanguage));
 console.log(typeof(number));
 console.log(typeof(isCoding));
 
+/* Version 2: Storing the typeof() Reference as a variable and then using the Variable as an argument for the console.log() */
 
+//Step 1: Create the Variables and Store the Reference as a Value
+let progLanguageDT = typeof(progLanguage);
+let numberDT = typeof(number);
+let isCodingDT = typeof(isCoding);
+
+//Step 2: Log to the Console the Variables with the Stored Reference
+console.log(progLanguageDT);
+console.log(numberDT);
+console.log(isCodingDT);
 
 
 
