@@ -21,6 +21,11 @@ let number = 25;
 //3. A Boolean 
 let isCoding = true;
 
+//Printing out the Values of your Variables to the Console using console.log()
+console.log(progLanguage);
+console.log(number);
+console.log(isCoding);
+
 
 
 
