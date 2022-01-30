@@ -23,15 +23,21 @@ Whenever you want to check the value of your variables you can use the Java 8 Sy
 * `System.out.print()`
 * `System.out.println()`
 
-Whenever you want to check the data type of your variable, you can use the following Java 8 Method: 
+Whenever you want to check the data type of your variable, you can use the following Java 8 Method. (It MUST be an **Object Type** and not a __Primitive Type__ to work): 
 * `.getClass().getSimpleName()`
 
 Unlike JavaScript and Python, you will not be passing in your variable as an argument, but instead you'll be calling these methods on that variable: 
 `{yourVariable}.getClass().getSimpleName()`
 
+If your variable is a __Primitive Data Type__, you will first have to cast it as an **Object Data Type** as follows: 
+* `((Object)yourPrimitiveDataType)`
+
 If you would like to see the result of the Data Type on the console or output screen, you will have to wrap the return value of the `.getClass().getSimpleName()` method within the parentheses of the `System.out.print()` or `System.out.println()` methods as follows: 
 * `System.out.print({yourVariable}.getClass().getSimpleName())`
 * `System.out.println({yourVariable}.getClass().getSimpleName())`
+
+If you're working with a Primitive Data Type what you'll have to do is Cast it to an Object Data Type first, and then proceed: 
+* `System.out.print(((Object)yourPrimitiveDatatype).getClass().getSimpleName())`
 
 You can also store the reference to your `.getClass().getSimpleName()` method in a variable first. Then log to the console the value of that reference using `System.out.print()` or `System.out.println()` as follows: 
 * `String reference = someVariable.getClass().getSimpleName();`
