@@ -27,12 +27,12 @@ class Main{
         /* Initializing a Boolean Number in Java 8 */
         boolean isCoding = true;
 
-        //Printing out the Values of your Variables to the Console using console.log()
+        //Printing out the Values of your Variables to the Console using System.out.print() or System.out.println()
         System.out.println(progLanguage);
         System.out.println(num);
         System.out.println(isCoding);
 
-        
+
 
     }
 }
