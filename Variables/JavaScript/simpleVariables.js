@@ -49,15 +49,3 @@ let isCodingDT = typeof(isCoding);
 console.log(progLanguageDT);
 console.log(numberDT);
 console.log(isCodingDT);
-
-
-
-
-
-
-
-
-
-
-
-
