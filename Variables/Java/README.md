@@ -11,9 +11,11 @@ Variables in Java can be a little more demanding. Since Java 8 is a Compiled Lan
 * A Semicolon at the End
 
 We will be working with the Primitive Data Types: 
-* `Strings`
-* `Numbers/Integers`
-* `Booleans`
+* `int`
+* `boolean`
+
+We will be working with the Object Data Type: 
+* `String`
 
 (You can make variables of any expression in Java 8, you just have to know its type.)
 
